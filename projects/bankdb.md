@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/bankdb/bank.jpg
 title: "Bank Database"
-date: 2023-11-20
+date: 2023
 published: true
 labels:
   - File-Based Database
