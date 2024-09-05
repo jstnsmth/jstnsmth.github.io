@@ -13,7 +13,7 @@ summary: "Banking database system written in C that mangages customer records an
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/bankdb/bankinterface.PNG" class="img-thumbnail">
+  <img width="600px" src="../img/bankdb/bankinterface.PNG" class="img-thumbnail">
 </div>
 
 This is a banking system that keeps track of customer recods using a text file for storage. The program lets users add, delete, print, and find records with each record containing the customer's name, address, and acount number. The recods are stored using a linked list and is saved to a text file when the program ends which allows the data to be loaded back in the next time the program is ran. The system is designed to handle duplicate records and other common issues. The project is split into multiple C files, one is for handling the database and another for the user interface, this helps keep the code organized and easy to work with.
