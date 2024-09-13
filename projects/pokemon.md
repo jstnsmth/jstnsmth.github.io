@@ -14,7 +14,7 @@ summary: "C++ program demonstrating pollymorphism and dynamic memory allocation 
 <div class="text-center p-4">
   <img src="../img/pokemon/pikachu.png" width = "25%" height = "25%">
   <img src="../img/pokemon/squirtle.png" width = "25%" height = "25%">
-  <img src="../img/pokemon/charmander.jpg" width = "25%" height = "25%">
+  <img src="../img/pokemon/charmander.png" width = "25%" height = "25%">
 </div>
 
 This C++ program uses object-oriented programming concepts like polymorphism and dynamic memory allocation by using Pokemon objects that were derived from a base Pokemon class. The program uses pointers to store instances of these Pokemon subclasses (Pikachu, Squirtle, and Charmander) in the heap memory. Separate C++ files were created along with header files for each of the Pokemon. Each class was separately defined and linked together when compiling. In the main file, the Pokemon are created in the heap memory and a nickname is given to each pokemon. Then there is a vector container that stores these three nicknames. It creates a map container that stores these Pokemon pointers by their corresponding nicknames as keys. The main file also verifies that everything works by using each of the elements of the vector container to access the corresponding item stored in the map container. Below is the code that verifies that each of the Pokemon are correctly added onto the heap:
