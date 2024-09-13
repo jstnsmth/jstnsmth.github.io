@@ -6,9 +6,9 @@ title: "My Evolution and Aspirations in Computer Science"
 date: 2024-12-05
 published: true
 labels:
+  - About Me
+  - Computer Science
   - Software Engineering
-  - TypeScript
-  - Reflection
 ---
 
 ## My Past
