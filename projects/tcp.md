@@ -13,7 +13,7 @@ summary: "C program which reads binary files that contain TCP headers, prints th
 ---
 
 <div class="text-center p-4">
-  <img src="../img/tcp/tcpheader.png" width = "40% height = "40%">
+  <img src="../img/tcp/tcpheader.png" width = "40%" height = "40%">
   <img src="../img/tcp/tcpprogram.png" width = "40%" height = "40%">
 </div>
 
