@@ -49,8 +49,6 @@ void printheader(const unsigned char data[])
 
 This project was created for my ICS 212 class, we were given the request data and instructions on how to use this data to generate response data. We were told what the expected output was supposed to be and it was our job to figure out how to achieve the desired output using bit manipulation. This program was also developed using Vim in a terminal by connecting to the UHUNIX server through SSH. This made the assignment harder since I had to manually debug everything rather than relying on a modern IDE.
 
-After completing this project, I 
-
-Through this project, I gained a deeper understanding of C by compiling multiple files, implementing linked lists, and managing file I/O. Also, Working without the conveniences of modern IDEs taught me valuable debugging skills, relying only on manual error tracing without line-by-line error indications. This hands-on experience expanded my knowledge of C greatly and I found the challenge both rewarding and enjoyable.
+After completing this project, I have a much deeper understanding of reading and manipulating bits and how TCP headers function. This hands-on experience with binary file operations and TCP protocol details has increased my ability to work with low-level data structures aned networking concepts. This project also helped improve my skills in debugging and problem-solving which provides a more solid foundation for more advanced programming tasks.
 
 You can view the source code [here](https://github.com/jstnsmth/ICS212/tree/main/homework7).
