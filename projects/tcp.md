@@ -16,7 +16,7 @@ summary: "C program which reads binary files that contain TCP headers, prints th
   <img width="700px" src="../img/bankdb/bankinterface.PNG" class="img-thumbnail">
 </div>
 
-This C program reads binary files that contain TCP headers, prints tehir contents and generates corresponding response headers which are written into separate binary files. This prgoram ferforms  key operations ike reading binary data, interpreting this data and displaying TCP header fields and creating response headers by adujsting ports, sequence numbers and control bits as they are needed. Once the data is processed, it will write generated response headers into separate binary files. Below is the printheader function that:
+This C program reads binary files that contain TCP headers, prints their contents, and generates corresponding response headers which are written into separate binary files. This program performs key operations like reading binary data, interpreting this data displaying TCP header fields, and creating response headers by adjusting ports, sequence numbers, and control bits as they are needed. Once the data is processed, it will write generated response headers into separate binary files. Below is the printhead function that:
 
 ```c
 void printheader(const unsigned char data[])
@@ -47,8 +47,8 @@ void printheader(const unsigned char data[])
 }
 ```
 
-This project was created for my ICS 212 class, we were given the request data and instructions on how to use this data to generate response data. We were told what the expected output was supposed to be and it was our job to figure out how to achieve the desired output using bit manipulation. This program was also developed using Vim in a terminal by connecting to the UHUNIX server through SSH. This made the assignment harder since I had to manually debug everything rather than relying on a modern IDE.
+This project was created for my ICS 212 class, we were given the request data and instructions on how to use this data to generate response data. We were told what the expected output was supposed to be and it was our job to figure out how to achieve the desired output using bit manipulation. This program was also developed using Vim in a terminal by connecting to the UHUNIX server through SSH. This made the assignment harder since I had to debug everything rather than relying on a modern IDE manually.
 
-After completing this project, I have a much deeper understanding of reading and manipulating bits and how TCP headers function. This hands-on experience with binary file operations and TCP protocol details has increased my ability to work with low-level data structures aned networking concepts. This project also helped improve my skills in debugging and problem-solving which provides a more solid foundation for more advanced programming tasks.
+After completing this project, I have a much deeper understanding of reading and manipulating bits and how TCP headers function. This hands-on experience with binary file operations and TCP protocol details has increased my ability to work with low-level data structures and networking concepts. This project also helped improve my skills in debugging and problem-solving which provides a more solid foundation for more advanced programming tasks.
 
 You can view the source code [here](https://github.com/jstnsmth/ICS212/tree/main/homework7).
