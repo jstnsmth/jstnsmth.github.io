@@ -13,8 +13,8 @@ summary: "C program which reads binary files that contain TCP headers, prints th
 ---
 
 <div class="text-center p-4">
-  <img src="../img/tcp/tcpheader.png" width = "25%" height = "25%">
-  <img src="../img/tcp/tcpprogram.png" width = "25%" height = "25%">
+  <img src="../img/tcp/tcpheader.png" width = "50%" height = "50%">
+  <img src="../img/tcp/tcpprogram.png" width = "50%" height = "50%">
 </div>
 
 This C program reads binary files that contain TCP headers, prints their contents, and generates corresponding response headers which are written into separate binary files. This program performs key operations like reading binary data, interpreting this data displaying TCP header fields, and creating response headers by adjusting ports, sequence numbers, and control bits as they are needed. Once the data is processed, it will write generated response headers into separate binary files. Below is the printhead function that:
