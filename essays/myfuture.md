@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "My Evolution and Aspirations in Computer Science"
 # All dates must be YYYY-MM-DD format!
-date: 2024-12-05
+date: 2024-09-12
 published: true
 labels:
   - About Me
